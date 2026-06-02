@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bokobá | Links</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Playfair+Display:wght@700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    
+
     <style>
         * {
             margin: 0;
@@ -17,10 +20,14 @@
         }
 
         :root {
-            --primary: #28351c; /* Verde Bosque Profundo */
-            --secondary: #785839; /* Café Tostado */
-            --accent: #546346; /* Verde Oliva */
-            --cream: #fcf9f8; /* Fondo Crema */
+            --primary: #28351c;
+            /* Verde Bosque Profundo */
+            --secondary: #785839;
+            /* Café Tostado */
+            --accent: #546346;
+            /* Verde Oliva */
+            --cream: #fcf9f8;
+            /* Fondo Crema */
             --white: #FFFFFF;
             --sombra: rgba(40, 53, 28, 0.12);
         }
@@ -41,7 +48,7 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background-image: 
+            background-image:
                 radial-gradient(circle at 20% 50%, rgba(40, 53, 28, 0.03) 0%, transparent 50%),
                 radial-gradient(circle at 80% 80%, rgba(120, 88, 57, 0.03) 0%, transparent 50%);
             pointer-events: none;
@@ -130,10 +137,21 @@
             animation: fadeInUp 0.6s ease-out backwards;
         }
 
-        .link-card:nth-child(1) { animation-delay: 0.1s; }
-        .link-card:nth-child(2) { animation-delay: 0.2s; }
-        .link-card:nth-child(3) { animation-delay: 0.3s; }
-        .link-card:nth-child(4) { animation-delay: 0.4s; }
+        .link-card:nth-child(1) {
+            animation-delay: 0.1s;
+        }
+
+        .link-card:nth-child(2) {
+            animation-delay: 0.2s;
+        }
+
+        .link-card:nth-child(3) {
+            animation-delay: 0.3s;
+        }
+
+        .link-card:nth-child(4) {
+            animation-delay: 0.4s;
+        }
 
         .link-card:hover {
             transform: translateY(-3px);
@@ -259,28 +277,48 @@
         }
 
         @keyframes fadeInDown {
-            from { opacity: 0; transform: translateY(-20px); }
-            to { opacity: 1; transform: translateY(0); }
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
         }
 
         @keyframes fadeInUp {
-            from { opacity: 0; transform: translateY(20px); }
-            to { opacity: 1; transform: translateY(0); }
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
         }
 
         @media (max-width: 480px) {
-            .container { padding: 40px 16px; }
-            .restaurant-name { font-size: 2rem; }
+            .container {
+                padding: 40px 16px;
+            }
+
+            .restaurant-name {
+                font-size: 2rem;
+            }
         }
     </style>
 </head>
+
 <body>
     <div class="leaf-drip"></div>
 
     <div class="container">
         <header class="profile-section">
             <div class="logo-container">
-                <div class="logo">B</div>
+                <img src="logo.png" alt="Logo Bokobá" class="logo">
             </div>
             <h1 class="restaurant-name">Bokobá</h1>
             <p class="handle">@bokoba__</p>
@@ -317,7 +355,8 @@
             </a>
 
             <!-- Ubicación -->
-            <a href="https://www.google.com/maps/place/Bokoba+caf%C3%A9/@20.6234323,-103.2552233,17z" target="_blank" class="link-card">
+            <a href="https://www.google.com/maps/place/Bokoba+caf%C3%A9/@20.6234323,-103.2552233,17z" target="_blank"
+                class="link-card">
                 <div class="card-icon">
                     <i class="fas fa-map-marker-alt"></i>
                 </div>
@@ -331,7 +370,8 @@
             </a>
 
             <!-- Reseña Google -->
-            <a href="https://www.google.com/search?sca_esv=aa74034db299556c&sxsrf=ANbL-n4GJeffsW1rUhl-QDxWLQkCNPf36g:1780326384427&q=opiniones+de+bokoba+caf%C3%A9+tonal%C3%A1&si=AL3DRZEsmMGCryMMFSHJ3StBhOdZ2-6yYkXd_doETEE1OR-qOU29IOHIlNmZh_4YfZETxXMjpWbr1i3Z3z611xCZJUar8vFTXVqEgkIQ27-9heNI0O-dnC5s5KfVV9aliUvIW5hbMfr1mJyFt9QSKfd2TCjIa42Hjg%3D%3D&sa=X&ved=2ahUKEwihmOnNqOaUAxWwmmoFHZnYBREQk8gLegQIGxAB&ictx=1#ebo=4" target="_blank" class="link-card">
+            <a href="https://www.google.com/search?sca_esv=aa74034db299556c&sxsrf=ANbL-n4GJeffsW1rUhl-QDxWLQkCNPf36g:1780326384427&q=opiniones+de+bokoba+caf%C3%A9+tonal%C3%A1&si=AL3DRZEsmMGCryMMFSHJ3StBhOdZ2-6yYkXd_doETEE1OR-qOU29IOHIlNmZh_4YfZETxXMjpWbr1i3Z3z611xCZJUar8vFTXVqEgkIQ27-9heNI0O-dnC5s5KfVV9aliUvIW5hbMfr1mJyFt9QSKfd2TCjIa42Hjg%3D%3D&sa=X&ved=2ahUKEwihmOnNqOaUAxWwmmoFHZnYBREQk8gLegQIGxAB&ictx=1#ebo=4"
+                target="_blank" class="link-card">
                 <div class="card-icon">
                     <i class="fas fa-star" style="color: #f1c40f;"></i>
                 </div>
@@ -358,4 +398,5 @@
         </footer>
     </div>
 </body>
+
 </html>
